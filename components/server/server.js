@@ -7,4 +7,4 @@ const server = new Server({
 
 server.listen();
 
---console.log("✅ Hocuspocus Server running at ws://127.0.0.1:1234");
+//console.log("✅ Hocuspocus Server running at ws://127.0.0.1:1234");
