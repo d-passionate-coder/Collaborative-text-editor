@@ -12,7 +12,7 @@ const Tiptap = () => {
   const editorRef = useRef<Editor | null>(null);
 
   const provider = new HocuspocusProvider(
-    {url: 'ws://collaborative-text-editor-1-qqgq.onrender.com:10000', 
+    {url: "wss://collaborative-text-editor-1-qqgq.onrender.com", 
     name :'manish', 
     document :ydoc
     }

@@ -1,8 +1,8 @@
 import { Server } from "@hocuspocus/server";
 
 const server = new Server({
-  port: 10000,
-  address: "collaborative-text-editor-1-qqgq.onrender.com",
+  port: process.env.PORT || 10000,
+  address: "0.0.0.0",
 });
 
 server.listen();
